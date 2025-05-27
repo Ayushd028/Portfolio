@@ -1,4 +1,4 @@
-# Portfolio Website - Aman Arya
+# Portfolio Website - Ayush Dwivedi
 
 Welcome to my portfolio website built with Nextjs:14, Typescript, Tailwind, Framer-Motion, Three.js, and hosted on Vercel with a Vercel domain [portfolio.com](https://portfolio-eosin-ten-74.vercel.app/)
 
