@@ -1,6 +1,6 @@
 # Portfolio Website - Aman Arya
 
-Welcome to my portfolio website built with Nextjs:14, Typescript, Tailwind, Framer-Motion, Three.js, and hosted on Vercel with a custom domain [amanarya.com](https://www.amanarya.com)
+Welcome to my portfolio website built with Nextjs:14, Typescript, Tailwind, Framer-Motion, Three.js, and hosted on Vercel with a Vercel domain [portfolio.com](https://portfolio-eosin-ten-74.vercel.app/)
 
 ![Portfolio Screenshot Wide](public/preview-wide-dark.png)
 
@@ -10,7 +10,7 @@ This project showcases my portfolio and allows visitors to view my work and send
 
 ## Live Demo
 
-You can see the live demo of this project at [https://www.amanarya.com](https://www.amanarya.com)
+You can see the live demo of this project at [https://portfolio-eosin-ten-74.vercel.app/](https://portfolio-eosin-ten-74.vercel.app/)
 
 ## Installation
 
@@ -25,7 +25,7 @@ To run this project locally, follow these steps:
 2. Navigate to the project directory:
 
     ```bash
-    cd Portfolio-Next-Website
+    cd Portfolio
     ```
 
 3. Install the dependencies:
@@ -56,7 +56,7 @@ To run this project locally, follow these steps:
 
 - Serverless API: The website uses a serverless function hosted on Vercel to handle form submissions and send emails using Nodemailer
 
-- Custom Domain: The portfolio is hosted on a vercel domain [www.amanarya.com](https://www.amanarya.com)
+- Custom Domain: The portfolio is hosted on a vercel domain [https://portfolio-eosin-ten-74.vercel.app/](https://portfolio-eosin-ten-74.vercel.app/)
 
 ## Contact
 
