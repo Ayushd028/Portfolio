@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Quantico&display=swap");
+
+/* Initial state for framer-motion animation */
+[data-introanimate] {
+  opacity: 0;
+  transform: scale(0.6);
+  filter: blur(20px);
+  translate: 0px 30px;
+}
+
+.myname {
+  overflow: hidden;
+  white-space: nowrap;
+  font-family: "Quantico", var(--font-gotham-medium);
+  text-transform: uppercase;
+  color: hsl(var(--foreground-secondary));
+  line-height: 1;
+  letter-spacing: 0.4rem;
+}
+
+.intro_sec .font-2-4 {
+  font-size: 2.4rem;
+}
+
+.intro_sec h2 {
+  opacity: 1;
+  font-size: 1.04064rem;
+  letter-spacing: 5.35px;
+  margin-bottom: 3.5rem;
+  color: hsla(var(--foreground) / 60%);
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.intro_sec .intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  margin: 0 auto;
+  text-align: start;
+}
+
+@media (max-width: 696px) {
+  .intro_sec .font-2-4 {
+    font-size: 1.7rem;
+  }
+
+  .intro_sec h2 {
+    font-size: 0.73712rem;
+    letter-spacing: 4.74px;
+  }
+}
+
+@media (max-width: 346px) {
+  .intro_sec .font-2-4 {
+    font-size: 1.4rem;
+  }
+
+  .intro_sec h2 {
+    font-size: 0.60704rem;
+    letter-spacing: 4.55px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .intro_sec .intro {
+    max-width: 700px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+/* For Decoder Text */
+.hithere,
+.namechar0,
+.namechar1,
+.namechar2 {
+  color: hsl(var(--foreground));
+}

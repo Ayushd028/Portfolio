@@ -1,0 +1,18 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  flex-wrap: wrap;
+  position: relative;
+  padding: 64px 24px 32px 24px;
+  font-size: 0.875rem;
+}
+
+@media (max-width: 640px) {
+  .footer {
+    padding: 64px 0 32px 0;
+    flex-direction: column;
+    gap: 5px;
+  }
+}
