@@ -22,27 +22,26 @@ export const metadata: Metadata = {
 
   title: {
     template: "%s | Portfolio",
-    default: "Pranshu Shukla",
+    default: "Ayush Dwivedi",
   },
   authors: {
-    name: "Pranshu Shukla",
+    name: "Ayush Dwivedi",
   },
   description: longDescription,
   openGraph: {
-    title: "Pranshu Shukla | Portfolio",
+    title: "Ayush Dwivedi | Portfolio",
     description: longDescription,
     url: "https://www.amanarya.com/",
-    siteName: "Pranshu Shukla | Portfolio",
-    // images: "https://www.amanarya.com/logo.png",
+    siteName: "Ayush Dwivedi | Portfolio",
     images: "https://www.amanarya.com/logo.png",
     type: "website",
   },
   twitter: {
-    title: "Pranshu Shukla | Portfolio",
+    title: "Ayush Dwivedi | Portfolio",
     description: longDescription,
     images: "https://www.amanarya.com/icon.png",
   },
-  keywords: ["Pranshu Shukla", "Portfolio", "Pranshu Shukla Portfolio", "Pranshu Shukla | Portfolio", "Pranshu", "Pranshu's Portfolio", "Pranshu Portfolio", "Pranshu", "Pranshu portfolio", "Pranshu's portfolio"],
+  keywords: ["Ayush Dwivedi", "Portfolio", "Ayush Dwivedi Portfolio", "Ayush Dwivedi | Portfolio", "Ayush", "Ayush's Portfolio", "Ayush Portfolio", "Ayush", "Ayush portfolio", "Ayush's portfolio"],
   manifest: "https://www.amanarya.com/manifest.json",
   icons: [
     {
